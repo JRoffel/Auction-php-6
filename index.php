@@ -29,24 +29,21 @@
 			<th>User id</th>
 			<th>Category id</th>
 		</tr>
-		<tr>
-			<td>Technisch Lego</td>
-			<td>Gloedjenieuwe lego zo in originele doos.</td>
-			<td>2012-01-10</td>
-			<td>10:00:00</td>
-			<td>&euro;10.55</td>
-			<td>5</td>
-			<td>8</td>
-		</tr>
-		<tr>
-			<td>Bruine Labrador</td>
-			<td>Godnondenju een lieve hond, jonge!</td>
-			<td>2012-01-05</td>
-			<td>12:45:00</td>
-			<td>&euro;99.99</td>
-			<td>3</td>
-			<td>4</td>
-		</tr>
+		<?php
+		foreach($data as $dat):
+		?>
+			<tr>
+				<td>Technisch Lego</td>
+				<td>Gloedjenieuwe lego zo in originele doos.</td>
+				<td>2012-01-10</td>
+				<td>10:00:00</td>
+				<td>&euro;10.55</td>
+				<td>5</td>
+				<td>8</td>
+			</tr>
+		<?php 
+		endforeach;
+		?>
 	</table>
 	<div class="footer">&copy; by Da Vinci College</div>
 </div>
