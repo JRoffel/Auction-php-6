@@ -1,3 +1,5 @@
+<?php require 'index.action.php' ?>
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -33,13 +35,13 @@
 		foreach($data as $dat):
 		?>
 			<tr>
-				<td>Technisch Lego</td>
-				<td>Gloedjenieuwe lego zo in originele doos.</td>
-				<td>2012-01-10</td>
-				<td>10:00:00</td>
-				<td>&euro;10.55</td>
-				<td>5</td>
-				<td>8</td>
+				<td><?= $dat['title'] ?></td>
+				<td><?= $dat['description'] ?></td>
+				<td><?= $dat['added'] ?></td>
+				<td><?= $dat['start_time'] ?></td>
+				<td>&euro;<?= $dat['current_offer'] ?></td>
+				<td><?= $dat['user_id'] ?></td>
+				<td><?= $dat['category_id'] ?></td>
 			</tr>
 		<?php 
 		endforeach;
