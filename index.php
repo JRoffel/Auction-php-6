@@ -14,11 +14,11 @@
 	<div class="menu">
 		<ul>
 			<li><a href="index.php">Items</a></li>
-			<li>Category</li>
-			<li>Communication</li>
-			<li>History</li>
-			<li>Review</li>
-			<li>User</li>
+			<li><a href="category.php">Category</a></li>
+			<li><a href="communication.php">Communication</a></li>
+			<li><a href="history.php">History</a></li>
+			<li><a href="review">Review</a></li>
+			<li><a href="user">User</a></li>
 		</ul>
 	</div>
 	<table>
